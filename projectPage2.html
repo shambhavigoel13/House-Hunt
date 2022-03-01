@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  <title>House Hunt</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+	
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+ <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+<!--link to access fa-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link rel="stylesheet" type="text/css" href="proj.css">
+<!--link rel="stylesheet" type="text/javascript" href="proj.js">-->
+<script src="proj.js">
+</script>
+  </head>
+  <body class="background2">
+ <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+        <img src="buy.jpg" class="d-block w-100" alt="..." width="1400" height="500">
+    </div>
+	 <div class="carousel-item">
+        <img src="apr.jpg" class="d-block w-100" alt="..." width="1400" height="500">
+    </div>
+    <div class="carousel-item">
+        <img src="apr1.jpg" class="d-block w-100" alt="..." width="1400" height="500">
+    </div>
+	<div class="carousel-item">
+        <img src="p2.jpg" class="d-block w-100" alt="..." width="1400" height="500">
+    </div>
+	 <div class="carousel-item ">
+        <img src="bal.jpg" class="d-block w-100" alt="..." width="1400" height="500">
+    </div>
+	 <div class="carousel-item">
+        <img src="bal21.jpg" class="d-block w-100" alt="..." width="1400" height="500">
+    </div>
+    <div class="carousel-item">
+      <img src="fs.jpg" class="d-block w-100" alt="..."width="1400" height="500">
+    </div>
+    <div class="carousel-item">
+      <img src="ren.jpg" class="d-block w-100" alt="..."width="1400" height="500">
+    </div>
+  </div>
+</div><hr>
+
+<h4 align="center" class="choose">Please fill out as much information as you can about your property so that 
+<br>we can evaluate which program might best suit your needs.</h4><hr>
+ 
+<div class="form">
+<form align="center" action="ProjPg3.html">
+<div class=" bor " align="center">
+
+BUY:&nbsp;<input type="radio" id="buy" name="buy" value="buy" required>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+RENT:  <input type="radio" id="ren" name="buy" value="ren">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+PG/Co-Living:  <input type="radio" id="pg" name="buy" value="pg">
+</div><br>
+
+<div class="bor">
+ Seclect City: <select  style="font-size:20px;" class="dropdown" name="city" required>
+  <option value="" disabled selected hidden>Choose a City</option>
+    <option value="0">Delhi</option>
+    <option value="1">Noida</option>
+    <option value="2">Chandigarh</option>
+    <option value="3">Gurgram</option>
+    <option value="4">Mumbai</option>
+    <option value="5">Banglore</option>
+    <option value="6">Chennai</option>
+    <option value="7">Goa</option>
+    <option value="8">Hyderabad</option>
+    <option value="9">Patna</option>
+    <option value="10">Calcutta</option>
+    <option value="11">Assam</option>
+    <option value="12">Bhopal</option>
+	<option value="13">Ahemdabad</option>
+    <option value="14">Ambala</option>
+    <option value="15">Surat</option>
+  </select><br><br></div><br>
+  <div class="bor">
+Apartment/Flat: <input type="radio" id="apr" name="ch"  required>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Mansion: <input type="radio" id="man" name="ch" >
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Penthouse: <input type="radio" id="pen" name="ch" ><br><br></div><br>
+  <div class="bor">
+<h2>Amenities</h2>
+
+ <input type="checkbox" id="gy" name="cu">&nbsp;Gym<br>
+ <input type="checkbox" id="ch" name="cu">&nbsp;Club<br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+ <input type="checkbox" id="gr" name="cu"> Garden<br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="checkbox" id="ga" name="cu"> Garage <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="checkbox" id="sp" name="cu"> Swimming pool<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 	
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="checkbox" id="sc" name="cu"> Shopping Complex nearby
+ </div>
+<br>
+  <div class="bor">
+<h2>Interior Preferences</h2>
+Already furnished?: <input type="radio" id="apr" name="ip">&nbsp;&nbsp;&nbsp;&nbsp;
+Semi-furnishing: <input type="radio" id="apr" name="ip" ><br><br>
+&nbsp;&nbsp;
+Number of Balcony: <input type="number" id="ba" name="cu" class="dropdown" placeholder="  --Seclect--"  min="0" max="15"><br><br>
+Number of Bedroom: <input type="number" id="ba" name="cu" class="dropdown" placeholder="  --Seclect--"  min="1" max="15"><br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	
+Select Floor: <select  style="font-size:25px;" class="dropdown">
+ <option value="" disabled selected hidden>Choose a Floor</option>
+    <option value="0">Lower Floor</option>
+    <option value="1">Upper Floor</option>
+	<option value="2">Floor above 10th</option>
+	<option value="3">Any</option></select>
+<br><br></div><br>
+<div class="bor">
+<h2>Budget</h2>
+<div class="columns">
+  <ul class="price">
+    <li class="header">Buy</li>
+    <li class="grey"> <input type="radio" name="a">₹ 50 L - ₹ 80 L</li>
+    <li class="white"> <input type="radio" name="a">₹ 80 L - ₹ 1.2 Cr</li>
+    <li class="grey"> <input type="radio" name="a">₹ 1.2 Cr - ₹ 2 Cr</li>
+    <li class="white"> <input type="radio" name="a">₹ 2 Cr - ₹ 2.8 Cr</li>
+	<li class="grey"> <input type="radio" name="a">₹ 2.8 Cr - ₹ 4 Cr</li>
+	<li class="white"> <input type="radio" name="a">₹ 4 Cr And Above</li>
+    </ul>
+</div>
+
+<div class="columns">
+  <ul class="price">
+    <li class="header">Rent</li>
+    <li class="grey"> <input type="radio" name="a">₹ 10 K - ₹ 15 K /month</li>
+    <li  class="white"> <input type="radio" name="a">₹ 15 K - ₹ 25 K </li>
+    <li class="grey"> <input type="radio" name="a">₹ 25 K - ₹ 35 K </li>
+    <li  class="white"> <input type="radio" name="a">₹ 35 K - ₹ 45 K </li>
+	<li class="grey"> <input type="radio" name="a">₹ 45 K - ₹ 50 K</li>
+	<li class="white"> <input type="radio" name="a">₹ 50K And Above</li>
+  </ul>
+</div>
+
+<div class="columns">
+  <ul class="price">
+    <li class="header">PG (/bedroom)</li>
+    <li class="grey"><input type="radio" name="a">₹ 5 K - ₹ 8 K /month </li>
+    <li  class="white"><input type="radio" name="a">₹ 8 K - ₹ 15 K</li>
+    <li class="grey"><input type="radio" name="a">₹ 15 K - ₹ 22 K</li>
+    <li class="white"><input type="radio" name="a">₹ 22 K - ₹ 30 K</li>
+	<li class="grey"><input type="radio" name="a">₹ 30 K - ₹ 40 K</li>
+	<li class="white"><input type="radio" name="a">₹ 40K And Above</li>
+    </ul>
+</div></div>
+<br><br><br><br><br><br><br>
+     <input type="submit"  name="Submit" class="sub">&nbsp;&nbsp;
+	 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	 <input type="reset"  name="reset" class="sub">
+	</div></form><br>
+<div class="foot">
+<h5 style="color:white;"> <img src="logo1.jpg" alt="logo" width="50" height="60"> <b>House Hunt</b> 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+<span style="font-size:13px;">© 2012-20 K.S Solutions Pvt. Ltd</span>
+<div class="margin">
+<a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
+<a href="#" class="fa fa-google"></a>
+<a href="#" class="fa fa-linkedin"></a>
+<a href="#" class="fa fa-youtube"></a>
+<a href="#" class="fa fa-instagram"></a></h5>
+</div>
+ </div>  
+
+
+
+ 
+
+  </body>
+</html>
